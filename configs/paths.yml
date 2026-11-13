@@ -1,0 +1,25 @@
+# Path Configuration for BaGGLS
+# Adjust these paths according to your local setup
+
+# Base directories
+project_root: .  # Repository root directory
+data_root: data  # Root directory for all data
+
+# Data directories (relative to data_root)
+testdata_dir: testdata # Test datasets
+xai_dir: xai  # XAI/attribution data
+
+# Model directories
+models_dir: models  # Trained CNN models
+vb_models_dir: vb_models  # Variational Bayes models
+
+# Results directories
+results_dir: results  # Output results
+figures_dir: results/figures  # Generated figures
+
+# External data
+external:
+  jaspar_motif_file: JASPAR_core_latest_version.txt  # JASPAR motif database (relative to data_root)
+  
+# Data file patterns
+dataset_pattern: "REST_2000_{idx}"
